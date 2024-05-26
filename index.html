@@ -77,9 +77,31 @@
           </button>
 
 
-          <button id="logoutButton" type="button" class="ms-4 px-4 fw-bold btn btn btn-warning  text-decoration-none" onclick="handlelogOut()" style="display: none;">
+          <button id="logoutButton" type="button" class="ms-4 px-4 fw-bold btn btn btn-warning  text-decoration-none text-white" onclick="handlelogOut()" style="display: none;">
             Logout
           </button>
+          <!-- <button id="profileButton" type="button" class="ms-4 px-4 fw-bold btn btn btn-warning  text-decoration-none text-white" style="display: none;">
+            Profile
+          </button> -->
+          <!-- <button
+            type="button"
+            class="ms-4 px-4 fw-bold btn btn btn-warning  text-decoration-none "style="display: none;"
+            id="profileButton"
+          >
+            <a href="profile.html" class="text-decoration-none text-white " >Profile </a>
+          </button> -->
+
+          <div class="dropdown ms-2 px-4">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="profileButton" data-bs-toggle="dropdown" aria-expanded="false">
+              Profile
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="profileButton">
+              <li><a class="dropdown-item" href="profile.html">profile</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+
 
 
 
@@ -104,7 +126,7 @@
       <div class="d-flex ">
         <div>
             <h1 class="fw-bold fs-1 font4">
-                Enjoy Your 
+                Make Your  
                  <span class="text-nav">Special</span> <br /> Delicious Meal <i class="fa-solid fa-fire" style="color: #f00511;"></i>
               </h1>
         </div>
@@ -227,7 +249,7 @@
             </div>
     
             <p class="ms-5 mt-3 ">
-                At RecipeNext, we offer you more than just recipes – we provide a vibrant community where culinary creativity comes to life.
+                At RecipeNest, we offer you more than just recipes – we provide a vibrant community where culinary creativity comes to life.
             </p>
     
             <p class="ms-5">
@@ -235,7 +257,7 @@
             </p>
     
             <p class="ms-5">
-                Join RecipeNext and start your culinary adventure today!
+                Join RecipeNest and start your culinary adventure today!
             </p>
     
             <p class="ms-5">
@@ -273,7 +295,7 @@
           <div class="card-body ">
             <h1 class="card-title fw-bold text-white">01</h1>
             <p class="card-text pb-4 text-white px-2">
-                At RecipeNext, our mission is to create a thriving community where food enthusiasts can discover, share, <br> and celebrate diverse culinary traditions. We aim to inspire creativity in the kitchen and make cooking accessible and enjoyable for everyone.
+                At RecipeNest, our mission is to create a thriving community where food enthusiasts can discover, share, <br> and celebrate diverse culinary traditions. We aim to inspire creativity in the kitchen and make cooking accessible and enjoyable for everyone.
             </p>
 
           </div>
@@ -297,7 +319,7 @@
           <div class="card-body ">
             <h1 class="card-title fw-bold text-white">03</h1>
             <p class="card-text pb-4 text-white px-2">
-                RecipeNext is transforming the way people engage with cooking by providing a space for learning, sharing, and connecting. Our platform bridges cultural gaps and brings together culinary enthusiasts from around the world, enriching lives through the joy of cooking and shared experiences.
+              RecipeNest is transforming the way people engage with cooking by providing a space for learning, sharing, and connecting. Our platform bridges cultural gaps and brings together culinary enthusiasts from around the world, enriching lives through the joy of cooking and shared experiences.
             </p>
 
           </div>
@@ -329,7 +351,7 @@
         <div>
             <h1 class="fw-bold fs-1 ">
               Stay Updated with
-                 <span class="about-text"> RecipeNext!</span>  <i class="fa-solid fa-fire" style="color: #f00511;"></i>
+                 <span class="about-text"> RecipeNest!</span>  <i class="fa-solid fa-fire" style="color: #f00511;"></i>
               </h1>
         </div>
 
@@ -394,7 +416,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    How do I submit a recipe to RecipeNext?
+                    How do I submit a recipe to RecipeNest?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -406,12 +428,12 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Is there a fee to join RecipeNext?
+                    Is there a fee to join RecipeNest?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    No, joining RecipeNext is completely free! You can sign up, access a wide variety of recipes, share your own creations, and participate in community discussions at no cost.
+                    No, joining RecipeNest is completely free! You can sign up, access a wide variety of recipes, share your own creations, and participate in community discussions at no cost.
                 </div>
               </div>
             </div>
@@ -490,7 +512,7 @@
                 </p>
                 <p class="c1 c1:hover">Call:+01 123 4567 890</p>
                 <p class="c1 c1:hover">
-                  Email:info@recipenext.com
+                  Email:info@recipenest.com
                 </p>
     
               </div>
@@ -505,7 +527,7 @@
           <div class="text-center">
     
             <p className="text-white text-center ">
-              <small class="text-black ">Copyright ©2024 RecipeNext. All Rights Reserved</small>
+              <small class="text-black ">Copyright ©2024 RecipeNest. All Rights Reserved</small>
             </p>
              
           </div>
@@ -518,13 +540,9 @@
       <!-- footer end -->
     
 
-<script src="login.js"></script>
-<script src="auth.js"></script>
+
+<script src="index.js"></script>
 <script src="logout.js"></script>
-
-
-
-
     
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
